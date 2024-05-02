@@ -1,7 +1,5 @@
 
-## Bootstrap ile Asp.NET Uygulamasına Tema Uygulama
-
- **1- Libman Kurulumu**
+ **1- Libman Setup**
 
 - dotnet tool list -g
 - dotnet tool uninstall --global Microsoft.Web.LibraryManager.Cli
@@ -11,8 +9,7 @@
 - cd storeApp.Web
 - libman init -p cdnjs
 
-**3- Kütüphane Kurulumu**
 - libman install bootstrap@5.3.2 -d wwwroot/lib/bootstrap
 
-**4- Css Kütaphanesinin Dahil Edilmesi**
+**4- Css library to Layout file**
 -  \<link  href="/lib/bootstrap/css/bootstrap.min.css"  rel="stylesheet"  />
